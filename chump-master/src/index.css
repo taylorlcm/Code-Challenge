@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: sans-serif;
+  background-color: #c1bdba;
+  color: white;
+  text-align: center;
+}
+
+button{
+     background-color: #1ab188;
+     border: none;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     padding: .5em 2em;
+
+}
+#btns{
+  background-color: #435258;
+}
+
+#active{
+  background-color: #1ab188;
+}
+
+#link{
+  color: white;
+  text-decoration: none;
+
+}
+
+input{
+  width: 70%;
+  background-color: #24333c;
+  border: 1px solid white;
+  color: #8b9398;
+  padding: 1em;
+}
+
+div{
+  margin: 2em 0em
+}
+
+#interface{
+  background-color: #24333c;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1em 0em;
+  text-align: center;
+}
+
+#loginbtn{
+  padding: .5em 2em;
+}
+
+#sendbtn{
+  padding: .6em 2em;
+  background-color: #435258;
+  margin: 1em;
+}
+#sendbtn:focus{
+  background-color: #1ab188;
+  margin: 1em;
+  padding: .6em 2em;
+}
+
+#msg{
+  background-color: #1ab188;
+  border-radius: 8px;
+  width: auto;
+  text-align: left;
+  padding: .5em 1em;
+  margin: 0em 2em;
+  float: inherit;
+
+}
+
+#items{
+  float: right;
+  width: 100%;
+  margin: 1em 0em;
+}
+
+
+@media screen and (min-width: 768px) {
+  #items{
+    position: relative;
+    right: 1.5%;
+    width: 51%;
+
+}
+
+}
+@media screen and (min-width: 992px) {
+  #items{
+    position: relative;
+    right: 5.5%;
+
+}
+
+}
